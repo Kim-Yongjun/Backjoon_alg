@@ -1,3 +1,6 @@
-nums = [int(input()) for _ in range(9)]
-print(max(nums))
-print(nums.index(max(nums))+1)
+a = int(input())
+b = int(input())
+c = int(input())
+l = list(str(a*b*c))
+for i in range(10):
+    print(l.count(str(i)))
